@@ -4,7 +4,7 @@ WORLD_HEIGHT = 4
 WORLD_WIDTH = 4
 
 GOAL = [[0, 0], [3, 3]]
-
+pip
 ACTION_UP = 0
 ACTION_DOWN = 1
 ACTION_LEFT = 2
@@ -85,5 +85,5 @@ def print_optimal_policy(state_value):
 
 if __name__ == '__main__':
     state_value = compute_state_value(1)
-    print('Optimal policy of Policy iteration:')
+    print('Optimal policy from Policy iteration:')
     print_optimal_policy(state_value)
